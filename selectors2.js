@@ -6,7 +6,7 @@ console.log(el);
 //printing using the DOM for class
 let p1_special = document.querySelectorAll("body p.special");
 for(let i = 0; i<p1_special.length;i++) {
-    console.log(p1_special[i]);
+    console.log(p1_special[0]);
 }
 //printing using the DOM for 'p' tag selector for the first p tag
 let p_el = document.getElementsByTagName("p");
