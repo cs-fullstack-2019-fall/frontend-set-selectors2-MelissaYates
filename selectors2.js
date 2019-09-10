@@ -1,5 +1,5 @@
 // 1) Print the first p tag to the console using the ID, class, and tag selectors.
-//
+// !! : use innterText to get the text inside an element 
 //printing using the DOM for ID
 let el = document.getElementById('first');
 console.log(el);
@@ -10,6 +10,7 @@ for(let i = 0; i<p1_special.length;i++) {
 }
 //printing using the DOM for 'p' tag selector for the first p tag
 let p_el = document.getElementsByTagName("p");
+// !! : getElementsByTagName gets an array of elements
 console.log(p_el);
 
 // 2) Print the special class using both the query selector and query all selector.
